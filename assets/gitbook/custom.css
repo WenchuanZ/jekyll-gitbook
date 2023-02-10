@@ -267,3 +267,9 @@
     --c-danger-title: #c00;
     --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
+
+
+#particles-js {
+    background: black;
+    height: 100vh;
+}
