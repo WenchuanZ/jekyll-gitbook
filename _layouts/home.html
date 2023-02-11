@@ -11,11 +11,13 @@
         {% endif %}
     </head>
     <body>
-        <div id = "particles-js"></div>
+        <!-- <div id = "particles-js"></div> -->
+        
         <div class="book">
             
             {%- include toc-date.html -%}
-            <div class="book-body">
+            <div id = "particles-js">
+                <div class="book-body">
                 
                 <div class="book-header" role="navigation">
                     <!-- Title -->
@@ -36,6 +38,7 @@
                             <i class="fa fa-angle-right"></i>
                         </a>
                     {% endif %}
+                </div>
                 </div>
             </div>
             <script>
